@@ -80,7 +80,7 @@ def test_z_score_function():
 #####################################################
 
 def z_score(x, mu, sigma):
-	numerator = (x / mu)
+	numerator = (x - mu)
 	score = (numerator / sigma)
 	return score
 
