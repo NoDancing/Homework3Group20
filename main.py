@@ -80,13 +80,7 @@ def test_z_score_function():
 #####################################################
 
 def z_score(x, mu, sigma):
-	"""
-  x is the population item
-  mu is the population mean
-  sigma is the population standard deviation
-
-  Returns the z-score of x
-	"""
-  
-	return
+	numerator = (x / mu)
+	score = (numerator / sigma)
+	return score
 
