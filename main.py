@@ -79,8 +79,10 @@ def test_z_score_function():
 #   i.e. +, -, *, **, /					                    #
 #####################################################
 
+#It would be possible to do this in just one line,
+#but this is a little more legible.
 def z_score(x, mu, sigma):
-	numerator = (x - mu)
+	numerator = (x - mu)	
 	score = (numerator / sigma)
 	return score
 
